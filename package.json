@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "axios": "^1.7.9",
+    "commander": "^13.1.0",
+    "googleapis": "^144.0.0"
+  },
+  "bin": {
+    "mycli": "script.js"
+  },
+  "name": "splunkoncall",
+  "version": "1.0.0",
+  "description": "Gets all the splunk on call records and updates them in a google sheet.",
+  "main": "script.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "node ./script.js"
+  },
+  "author": "Nilotpal Bose",
+  "license": "ISC"
+}
